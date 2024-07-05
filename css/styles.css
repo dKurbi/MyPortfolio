@@ -1,0 +1,14 @@
+:root {
+    --gradient-color-right:#3498DB ;
+    --gradient-color-left: #FFFFFF;
+}
+
+body {
+    padding-top: 0px; /* Ajusta este valor según la altura de tu navbar */
+    background: linear-gradient(to right, var(--gradient-color-right),var(--gradient-color-left)); /* Degradado de izquierda a derecha */
+       background-attachment: fixed; /* Fija el fondo para que no se mueva al hacer scroll */
+}
+
+.section-spacing {
+    padding-top: 70px; /* Espacio adicional para compensar la altura de la navbar fija */
+}
